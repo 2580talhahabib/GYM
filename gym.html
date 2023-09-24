@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="gym.css">
+    <title>Document</title>
+    
+</head>
+<body>
+    <div class="container">
+        <!-- navbar  -->
+        <nav>
+            <div class="logo">
+                <h1>GetFits 's</h1>
+            </div>
+            <ul>
+                <li>
+                    <a href="#" id="homes" onclick="home()">Home</a>
+                    <a href="#program" id="programs" onclick="program()">Program</a>
+                    <a href="#plan" id="plans" onclick="plan()">Plan</a>
+                    <a href="#blog" id="blogs" onclick="blog()">Blog</a>
+                    <a href="#contact" id="contacts" onclick="contact()">Contact us</a>
+                    <button>Jonin Now</button>
+                </li>
+            </ul>
+        </nav>
+        
+            <div class="home" id="home">
+                <div class="hometext">
+                    <h1>Comit To Be Fit</h1>
+                    <h3>once you see Result,It becomes an Addiction</h3>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Enim, minus.<br> Lorem ipsum dolor sit, amet consectetur adipisicing , </p>
+                    <button>Join Now</button>
+                </div>
+       
+            <img src="1.png" alt="">
+           </div>
+        <!-- program  -->
+        <div class="program" id="program">
+            <div class="head">
+                <h1>our <span>program's</span></h1>
+            </div>
+            <div class="ourprogram">
+                <div class="crd">
+                    <img src="dance.jpg" alt="" class="images">
+                    <h3>Dance</h3>
+                </div>
+                <div class="crd">
+                    <img src="cardio.jpg" alt="" class="images">
+                    <h3>Cardio</h3>
+                </div>
+                <div class="crd">
+                    <img src="hardworkout.jpg" alt="" class="images">
+                    <h3>Heavy Weight</h3>
+                </div>
+            </div>
+        </div>
+        <!-- our plans  -->
+        <div class="plan" id="plan">
+            <div class="head">
+                <h1>our <span>plan's</span></h1>
+            </div>
+            <div class="ourplan">
+                <div class="card">
+                <i class="fa-solid fa-window-restore"></i>
+                <h3>Basic Package</h3>
+                <h1>30 Day in $10</h1>
+                <p>no personal trainer</p>
+                <p>valid for 30 days</p>
+                <p>Full day valid</p>
+                <p>Lorem ,ipsumipsum.</p>
+                <p>Lorem ,ipsumipsum.</p>
+                <button>Buy plan</button>
+            </div>
+            <div class="card">
+                <i class="fa-solid fa-diagram-project"></i>
+                <h3>premium Package</h3>
+                <h1>30 Day in $10</h1>
+                <p>no personal trainer</p>
+                <p>valid for 30 days</p>
+                <p>Full day valid</p>
+                <p>Lorem ,ipsumipsum.</p>
+                <p>Lorem ,ipsumipsum.</p>
+                <button>Buy plan</button>
+
+            </div>
+            <div class="card">
+                <i class="fa-solid fa-code-merge"></i>
+                <h3>Diamond Package</h3>
+                <h1>30 Day in $10</h1>
+                <p>no personal trainer</p>
+                <p>valid for 30 days</p>
+                <p>Full day valid</p>
+                <p>Lorem ,ipsumipsum.</p>
+                <p>Lorem ,ipsumipsum.</p>
+                <button>Buy plan</button>
+
+            </div>
+            </div>
+        </div>
+        <!-- blogs  -->
+<div class="blog" id="blog">
+    <div class="head">
+        <h1>our <span>blog's</span></h1>
+    </div>
+    <div class="ourblog">
+        <div class="blogcard">
+            <img src="blog1.jpg" alt=""  >
+            <div class="blogtext">
+<h3>How to makes Abs ?</h3>
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia praesentium tempore quod.</p>
+<a href="https://www.healthline.com/nutrition/best-ways-to-get-abs" target="_blank">Read More</a>
+            </div>
+        </div>
+        <div class="blogcard">
+            <img src="blog2.jpg" alt="" >
+            <div class="blogtext">
+<h3>How to makes Abs ?</h3>
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia praesentium tempore quod.</p>
+<a href="https://www.healthline.com/nutrition/best-ways-to-get-abs" target="_blank">Read More</a>
+            </div>
+        </div>
+        <div class="blogcard">
+            <img src="blog3.jpg" alt="" >
+            <div class="blogtext">
+<h3>How to makes Abs ?</h3>
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia praesentium tempore quod.</p>
+<a href="https://www.healthline.com/nutrition/best-ways-to-get-abs" target="_blank">Read More</a>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- contact us  -->
+<div class="contact" id="contact">
+    <div class="head">
+        <h1>Let's <span>Begin ...</span> </h1>
+        <h2>Contact <span>US</span></h2>
+    </div>
+    <div class="contactpage">
+        <div class="contacttext">
+            <h1>Let's Go ... </h1>
+            <h2>Start your Journey Now! </h2>
+        </div>
+        <img src="contact1.png" alt="">
+    </div>
+    <div class="contactus">
+        <h1>Contact us</h1>
+        <input type="text" placeholder="Enter your name" value="" id="name"><br>
+        <input type="text" placeholder="Enter your Number" value="" id="number"><br>
+        <button onclick="submit()">submit</button>
+    </div>
+</div>
+<footer>
+    <div class="footer">
+        <div class="footertext">
+            <h2> About us</h2>
+            <p>Lorem ipsum dolor sit  consectetur adipisicing elit. <br>
+                 ducimus praesentium rerum minima, assumenda      <br> praesentium soluta.</p>
+           
+        </div>
+        <div class="footertext">
+            <h2>Plans</h2>
+            <p>Transarant</p>
+            <p>Accounty</p>
+            <p>valid</p>
+            <p>Ends</p>
+        </div>
+        <div class="footertext">
+            <h2>program</h2>
+            <p>Dance</p>
+            <p>Cardio</p>
+            <p>Heavy weight</p>
+            <p>Fun more</p>
+        </div>
+        <div class="footertext">
+            <h2>Contact us</h2>
+            <p>Membership</p>
+            <p>plas</p>
+            <p>Download plan</p>
+            <p>Join Now</p>
+        </div>
+    </div>
+</footer>
+
+
+    </div>
+    <script src="gym.js"></script>
+</body>
+</html>
